@@ -25,14 +25,7 @@ export default function About() {
                     Accompany me as I travel through the realm of video games.  
                     </h2>
                     <p className="mt-4 text-gray-600">
-                    As a PS5 gamer with a considerable backlog, I prefer to juggle between two games, allowing me the 
-                    flexibility to switch between them seamlessly. Sundays are dedicated to investing focused time in 
-                    either my 2nd or 3rd game on the list. The 3rd game holds a special place as I intentionally extend 
-                    my playtime. Opting for a 40-hour plus game, I deliberately savor the experience, stretching it out 
-                    over half a year. Immersing myself in the game's world for an extended period is a deliberate choice, 
-                    enabling me to extract every bit of enjoyment. Once I complete a game, I typically don't revisit it, 
-                    given the plethora of unexplored worlds waiting for me to discover.
-                 
+                    My top PS5 games of all time include the captivating samurai saga of Ghost of Tsushima, the futuristic world of Cyberpunk 2077, the rich fantasy realms of Witcher 3, the nostalgic journey of FF7 Remake, and the exhilarating web-slinging adventure of Spider-Man. These are the most memorable PS5 games so far. Currently, I'm engrossed in FF7 Rebirth and Dragon’s Dogma. With so much of the gaming universe waiting to be explored, the backlog seems endless. It’s an incredible time to be a gamer.
                     </p>
                     <p className="mt-4 text-gray-600"> 
                     I create short videos of my gameplay for my own enjoyment. Although I don't do it all the time, 
@@ -41,6 +34,6 @@ export default function About() {
                 </div>
             </div>
         </div>
-        </div>
+    </div>
     );
 }   

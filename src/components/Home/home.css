@@ -1,0 +1,24 @@
+h2 {
+font-family: "Permanent Marker", cursive;
+font-weight: 400;
+font-style: normal;
+margin-left: 20px;     
+}
+
+.custom-row {
+    max-width: 300px;
+}
+
+article p {
+    font-family: "Yuji Boku", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+article img {
+    width: 70%;
+}
+
+.dd2p {
+    margin-top: 10px;
+}

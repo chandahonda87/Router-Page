@@ -40,12 +40,12 @@ export default function Footer() {
                                 <li className="mb-4">
                                     <a className="text-decoration-none hover-underline" 
                                     target="_blank"  rel="noreferrer">
-                                        Github
+                                        X / Twitter
                                     </a>
                                 </li>
                                 <li>
                                     <Link to='/' className="text-decoration-none hover-underline" >
-                                        Discord
+                                        YouTube
                                     </Link>
                                 </li>
                             </ul>

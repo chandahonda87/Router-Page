@@ -47,10 +47,10 @@ export default function Header() {
                             </li>
                             <li>
                                 <NavLink
-                                to='/contact'
+                                to='/twitter'
                                 className="nav-link px-3 py-2 border-bottom border-gray-100" activeClassName="active"
                                 >
-                                Contact
+                                X : twitter
                                 </NavLink>
                             </li>
                             <li>
@@ -63,10 +63,10 @@ export default function Header() {
                             </li>
                             <li>
                                 <NavLink
-                                to='/github'
+                                to='/space'
                                 className="nav-link px-3 py-2 border-bottom border-gray-100" activeClassName="active"
                                 >
-                                NASA
+                                SPACE
                                 </NavLink>
                             </li>
                             <li>

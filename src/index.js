@@ -8,7 +8,9 @@ import Layout from './Layout';
 import Home from './components/Home/Home';
 import About from './components/About/About';
 import User from './components/User/User';
-import Github, {spaceLoader} from './components/Github/Github';
+import Space, {spaceLoader} from './components/Space/Space';
+import Twitter from './components/twitter/Twitter';
+import YouTube from './components/youtube/YouTube';
 
 
 const router = createBrowserRouter(
@@ -16,13 +18,15 @@ const router = createBrowserRouter(
     <Route path='/' element={<Layout />}>
       <Route path='' element={<Home />} />
       <Route path='about' element={<About />} />
+      <Route path='twitter' element={<Twitter />} />
+      <Route path='youtube' element={<YouTube />} />
       <Route path='user/' element={<User />} >
         <Route path=':userId' element={<User/>}/>
       </Route>
       <Route 
       loader={spaceLoader}
-      path='github' 
-      element={<Github/>} />
+      path='space' 
+      element={<Space/>} />
     </Route>
 
   )
